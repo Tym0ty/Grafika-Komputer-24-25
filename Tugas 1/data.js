@@ -1,21 +1,21 @@
 // Vertices for the 3D monitor (with bezel, thicker stand, and base)
 var vertices = [
     // Front face of the screen (inner area)
-    -0.3, 0.3, 0.05,   // Top-left (0)
+    -0.5, 0.3, 0.05,   // Top-left (0)
     0.5, 0.3, 0.05,    // Top-right (1)
     0.5, -0.2, 0.05,   // Bottom-right (2)
-    -0.3, -0.2, 0.05,  // Bottom-left (3)
+    -0.5, -0.2, 0.05,  // Bottom-left (3)
 
     // Front bezel (outer area)
-    -0.4, 0.4, 0.05,   // Outer top-left (4)
+    -0.6, 0.4, 0.05,   // Outer top-left (4)
     0.6, 0.4, 0.05,    // Outer top-right (5)
     0.6, -0.3, 0.05,   // Outer bottom-right (6)
-    -0.4, -0.3, 0.05,  // Outer bottom-left (7)
+    -0.6, -0.3, 0.05,  // Outer bottom-left (7)
 
     // Back face of the screen (inner area)
     -0.4, 0.2, -0.05,  // Top-left (8)
     0.4, 0.2, -0.05,   // Top-right (9)
-    0.4, -0.1, -0.05,  // Bottom-right (10)
+    0.4, -0.2, -0.05,  // Bottom-right (10)
     -0.4, -0.2, -0.05, // Bottom-left (11)
 
     // Back bezel (outer area)
